@@ -5,6 +5,9 @@
   "repository": "https://github.com/tbell511/typescript-challenge-backend.git",
   "author": "Tyler Bell <belltyler@live.com>",
   "license": "MIT",
+  "scripts": {
+	"start": "tsc && node dist/index.js"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "mongo": "^0.1.0"
